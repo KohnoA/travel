@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,400;0,700;1,400&family=Magra:wght@700&family=Red+Hat+Text:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/Vector.ico">
+</head>
+<body>
+    <header class="page-header">
+        <div class="container">
+            <nav class="main-navigation">
+                <a class="main-header-logo" href="index.html">
+                    <img class="logo-image" src="assets/svg/Vector.svg" width="30" height="30" alt="Website logo">
+                    <p class="logo-caption"> Travel Portal</p>
+                </a>
+                <ul class="navigation-list site-navigation">
+                    <li class="navigation-item">
+                        <a href="#preview-anchor" class="navigation-link">How It Works</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="#steps-anchor" class="navigation-link">Plan Your Trip</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="#destinations-anchor" class="navigation-link">Destinations</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="#stories-anchor" class="navigation-link">Travel Stories</a>
+                    </li>
+                </ul>
+                <ul class="user-navigation">
+                    <li class="navigation-item">
+                        <button class="login-link button" type="button">Login</button>
+                    </li>
+                </ul>
+                <div class="adaptive-nav">
+                    <div class="hamburger-wrapper">
+                        <div class="hamburger">
+                            <span class="line"></span>
+                            <span class="line"></span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                    <div class="hamburger-menu">
+                        <ul class="hamburger-menu-list">
+                            <li class="hamburger-menu-item"><a class="humburger-menu-link" href="#preview-anchor">How It Works</a></li>
+                            <li class="hamburger-menu-item"><a class="humburger-menu-link" href="#steps-anchor">Plan Your Trip</a></li>
+                            <li class="hamburger-menu-item"><a class="humburger-menu-link" href="#destinations-anchor">Destinations</a></li>
+                            <li class="hamburger-menu-item"><a class="humburger-menu-link" href="#stories-anchor">Travel Stories</a></li>
+                            <li class="hamburger-menu-item"><a class="humburger-menu-link login-link" href="#">Account</a></li>
+                            <li class="hamburger-menu-item"><a class="humburger-menu-link" href="#social-media">Social Media</a></li>
+                        </ul>
+                        <button class="hamburger-menu-close" type="button">
+                            <span class="visually-hidden">Close</span>
+                        </button>
+                    </div>
+                    <div class="overlay"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-index">
+        <div class="container">
+            <section class="preview" id="preview-anchor">
+                <div class="preview-wrapper">
+                    <h1 class="preview-title">Explore the beauty of the World</h1>
+                    <p class="preview-description">Receive personalized recommendations for countries, hotels, activities and more</p>
+                    <div class="preview-position-wrapper">
+                        <label class="preview-search-control" for="preview-search">
+                            <input class="preview-search" type="text" name="search" id="preview-search" placeholder="What would you like to do?">
+                        </label>
+                        <button class="button" type="button">Start Planning</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="steps" id="steps-anchor">
+                <h2 class="steps-title general-title">3 steps to the perfect trip</h2>
+                <ul class="steps-list">
+                    <li class="step-item step-item-left">
+                        <img class="step-image step-image-left" src="assets/svg/step-1.svg" width="50" height="45" alt="Step 1 icon">
+                        <p class="step-description">Tell us what you want to do</p>
+                    </li>
+                    <li class="step-item step-item-center">
+                        <img class="step-image step-center" src="assets/svg/step-2.svg" width="52" height="52" alt="Step 2 icon">
+                        <p class="step-description">Share us preferable dates</p>
+                    </li>
+                    <li class="step-item step-item-right">
+                        <img class="step-image step-image-right" src="assets/svg/step-3.svg" width="60" height="45" alt="Step 3 icon">
+                        <p class="step-description">We will give you recommendations</p>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="destinations" id="destinations-anchor">
+                <h2 class="destinations-title general-title">Popular destinations</h2>
+                <div class="slider">
+                    <div class="arrow-controls-wrapper adaptive-controls">
+                        <button class="arrow-control-prev">
+                            <img src="./assets/svg/slider-right.svg" alt="Button next">
+                        </button>
+                        <button class="arrow-control-next">
+                            <img src="./assets/svg/slider-right.svg" alt="Button previous">
+                        </button>
+                    </div>
+                    <div class="slider-list">
+                        <div class="slider-item">
+                            <button class="slider-next slider-next_desktop">
+                                <img src="./assets/svg/slider-right.svg" width="50" height="50" alt="next slide">
+                            </button>
+                        </div>
+                        <div class="slider-item">
+                            <img class="slider-image" src="assets/img/slide-1.jpg" width="800" height="800" alt="photo of rocks">
+                            <img class="slider-image-mob1 slider-image-mob" src="assets/img/slider1Mb.jpg" width="360" height="210" alt="photo of rocks">
+                            <b class="slider-item-caption">Spain</b>
+                        </div>
+                        <div class="slider-item">
+                            <img class="slider-image" src="assets/img/slide-2.jpg" width="800" height="800" alt="photo of the arch">
+                            <img class="slider-image-mob2 slider-image-mob" src="assets/img/slider2Mb.jpg" width="360" height="210" alt="photo of the arch">
+                            <b class="slider-item-caption">Japan</b>
+                        </div>
+                        <div class="slider-item">
+                            <img class="slider-image" src="assets/img/slide-3.jpg" width="800" height="800" alt="photo of the bridge">
+                            <img class="slider-image-mob3 slider-image-mob" src="assets/img/slider3Mb.jpg" width="360" height="210" alt="photo of the bridge">
+                            <b class="slider-item-caption">USA</b>
+                        </div>
+                        <div class="slider-item">
+                            <button class="slider-prev slider-prev_desktop">
+                                <img src="./assets/svg/slider-right.svg" width="50" height="50" alt="previous slide">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="slider-controls">
+                        <button class="control-toggle" type="button">
+                            <span class="visually-hidden">1 слайд</span>
+                        </button>
+                        <button class="control-toggle control-toggle-active" type="button">
+                            <span class="visually-hidden">2 слайд</span>
+                        </button>
+                        <button class="control-toggle" type="button">
+                            <span class="visually-hidden">3 слайд</span>
+                        </button>
+                    </div>
+                </div>
+                <a class="button button-arrow" href="#">Find More</a>
+            </section>
+
+            <section class="stories" id="stories-anchor">
+                <h2 class="stories-title general-title">Travel stories</h2>
+                <div class="stories-wrapper">
+                    <ul class="stories-list">
+                        <li class="stories-item">
+                            <img class="stories-image" src="assets/img/Rectangle-29.jpg" width="400" height="250" alt="Thailand photo">
+                            <img class="stories-image-mob" src="assets/img/stories1Mb.jpg" width="155" height="130" alt="Thailand photo">
+                            <div>
+                                <h3 class="stories-item-title">10 Photos of Attractive Thailand</h3>
+                                <p class="stories-item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+                                    nulla<span class="text-hidden"> pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+                                    deserunt mollit anim id est laborum</span>.Lorem ipsum dolor sit a<span class="text-hidden">met, consectetur adipiscing elit</span>...
+                                    <a class="stories-link" href="#">Read More</a>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="stories-item">
+                            <img class="stories-image" src="assets/img/Rectangle-30.jpg" width="400" height="250" alt="Utah photo">
+                            <img class="stories-image-mob" src="assets/img/stories2Mb.jpg" width="155" height="130" alt="Utah photo">
+                            <div>
+                                <h3 class="stories-item-title">Canyonlands National Park, Utah</h3>
+                                <p class="stories-item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+                                    nulla<span class="text-hidden"> pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+                                    deserunt mollit anim id est laborum</span>.Lorem ipsum dolor sit a<span class="text-hidden">met, consectetur adipiscing elit</span>...
+                                    <a class="stories-link" href="#">Read More</a>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="stories-item">
+                            <img class="stories-image" src="assets/img/Rectangle-31.jpg" width="400" height="250" alt="Mountains photo">
+                            <img class="stories-image-mob" src="assets/img/stories3Mb.jpg" width="155" height="130" alt="Mountains photo">
+                            <div>
+                                <h3 class="stories-item-title">I left my heart in the Mountains!</h3>
+                                <p class="stories-item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+                                    nulla<span class="text-hidden"> pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+                                    deserunt mollit anim id est laborum</span>.Lorem ipsum dolor sit a<span class="text-hidden">met, consectetur adipiscing elit</span>...
+                                    <a class="stories-link" href="#">Read More</a>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="stories-item">
+                            <img class="stories-image" src="assets/img/Rectangle-32.jpg" width="400" height="250" alt="Road photo">
+                            <img class="stories-image-mob" src="assets/img/stories4Mb.jpg" width="155" height="130" alt="Road photo">
+                            <div>
+                                <h3 class="stories-item-title">The Longest journey in my life!</h3>
+                                <p class="stories-item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+                                    nulla<span class="text-hidden"> pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+                                    deserunt mollit anim id est laborum</span>.Lorem ipsum dolor sit a<span class="text-hidden">met, consectetur adipiscing elit</span>...
+                                    <a class="stories-link" href="#">Read More</a>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="stories-button">
+                            <a class="button button-arrow" href="#">See More</a>
+                        </li>
+                    </ul>
+                    
+                    <footer class="page-footer" id="social-media">
+                        <div class="container"> 
+                            <div class="footer-wrapper">
+                                <section class="footer-course">
+                                    <h3 class="visually-hidden">Link to the course and GitHub</h3>
+                                    <a class="rss-link" href="https://rs.school/js/">
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="110" height="44" viewBox="0 0 242 90">
+                                            <title>Rolling Scopes School</title>
+                                            <path fill="#fff" d="M137.197 3.257c-6.927 1.609-10.367 5.259-10.401 11.036-0.039 6.727 3.729 9.816 15.812 12.966 5.873 1.53 7.869 4.182 5.091 6.758-3.153 2.922-9.323 1.027-10.1-3.105-0.385-2.062-0.366-2.056-6.837-1.696l-5.735 0.318 0.276 1.806c0.425 2.784 2.722 7.082 4.68 8.758 5.802 4.964 21.78 4.455 27.25-0.872l1.6-1.558 0.307 1.811c1.125 6.663 7.892 12.923 15.677 14.504l2.5 0.509-1.477 1.935c-4.874 6.384-5.012 19.44-0.276 26.221 7.248 10.375 27.644 10.074 34.355-0.506l1.249-1.969v9.391h31.61v-10.097h-18.878v-29.416h-12.732l-0.025 4.5c-0.022 3.676-0.121 4.343-0.548 3.642-2.419-3.968-7.13-7.265-11.748-8.218l-2.489-0.515 2.526-1.898c7.858-5.906 12.752-16.681 11.495-25.307-3.305-22.669-35.958-23.020-48.395-0.523-0.802 1.448-1.485 2.68-1.519 2.737s-1.153-0.956-2.489-2.247c-2.77-2.683-4.995-3.665-12.558-5.538-7.037-1.744-8.477-2.967-6.112-5.192 2.25-2.115 7.149-0.745 8.252 2.309 0.647 1.789 0.529 1.772 8.010 1.277l4.326-0.287-0.276-1.724c-1.277-7.987-11.329-12.386-22.424-9.807zM2.635 23.268v19.755h12.732v-15.806h1.294c2.042 0 3.277 1.502 7.214 8.781l3.682 6.803 7.079 0.121c3.893 0.067 7.076 0.003 7.076-0.141 0-2.225-7.934-15.064-10.136-16.402l-1.207-0.734 2.436-1.274c9.031-4.728 7.321-18.273-2.576-20.396-1.249-0.267-7.574-0.467-14.884-0.467h-12.71v19.755zM195.401 6.952c19.87 5.186 18.051 33.064-2.824 43.242-21.268 10.37-40.222-6.654-30.113-27.045 5.898-11.897 20.984-19.316 32.934-16.194zM24.14 12.417c4.472 2.261 1.505 6.435-4.829 6.795l-3.943 0.225v-7.585l3.842 0.006c2.199 0.003 4.306 0.242 4.93 0.557zM188.373 15.91c-3.496 0.928-7.051 4.461-7.054 7.009-0.006 4.163 3.322 5.664 8.558 3.862 3.203-1.102 4.019-1.102 4.612 0.003 1.004 1.879-2.287 3.794-4.207 2.447-0.965-0.675-4.523 1.454-4.559 2.728-0.056 1.918 4.798 2.644 7.771 1.162 9.442-4.705 6.761-14.805-3.032-11.427-3.915 1.35-4.756 1.409-4.756 0.323 0-1.704 2.663-2.936 3.825-1.775 0.475 0.475 4.075-1.912 4.075-2.703 0-1.181-3.189-2.177-5.237-1.631zM174.201 25.383c-2.095 1.516-2.194 1.122 1.648 6.576 2.365 3.355 3.274 5.012 3.184 5.797-0.157 1.342-1.662 1.699-2.72 0.644-0.672-0.672-0.847-0.619-2.438 0.745-4.019 3.443 2.090 6.398 6.629 3.209 4.987-3.504 4.995-5.678 0.037-12.918-3.845-5.617-4.022-5.729-6.342-4.050zM13.044 49.621c-7.183 1.133-11.388 5.333-11.444 11.43-0.056 6.221 3.977 9.765 13.967 12.265 6.123 1.533 8.139 2.703 8.139 4.719 0 5.678-10.164 5.11-11.239-0.627-0.377-2.002-0.329-1.991-6.812-1.64l-5.749 0.312 0.287 1.8c1.311 8.252 6.109 11.686 16.799 12.021 8.477 0.264 11.391-0.557 15.092-4.258l2.534-2.534 0.931 1.257c5.386 7.284 23.58 7.774 29.554 0.793 1.747-2.039 3.707-5.881 3.907-7.65 0.141-1.246 0.101-1.268-5.223-2.883l-5.363-1.628-0.72 2.166c-2.453 7.383-11.714 7.467-13.748 0.127-0.692-2.495-0.608-8.454 0.157-11.022 1.845-6.207 9.638-7.481 12.8-2.090 1.319 2.25 0.965 2.208 6.95 0.855 5.698-1.288 5.453-1.060 4.154-3.859-5.153-11.087-22.475-13.688-31.66-4.759l-2.562 2.492-1.063-1.814c-2.649-4.523-11.005-6.846-19.682-5.473zM134.342 49.632c-4.863 0.844-9.667 3.904-12.381 7.883-0.726 1.066-0.745 0.979-0.768-3.187l-0.023-4.281h-12.732v13.61h-12.732v-13.61h-12.732v39.513h12.732v-15.806h12.732v15.806h12.732v-8.933l1.375 2.073c5.721 8.634 23.414 10.15 31.466 2.694 9.318-8.626 7.49-28.249-3.136-33.671-4.101-2.093-11.298-3.004-16.535-2.095zM20.183 57.727c0.734 0.38 1.595 1.409 2.062 2.467l0.802 1.817 8.578-0.413-0.281 2.239c-0.371 2.962-0.537 3.074-2.998 1.986-1.159-0.512-4.402-1.505-7.211-2.211-6.646-1.665-7.473-2.022-7.813-3.375-0.63-2.503 3.766-4.112 6.865-2.509zM141.871 59.279c6.502 1.806 7.819 16.729 1.789 20.278-4.503 2.649-10.201 0.394-11.537-4.57-2.655-9.863 2.264-17.786 9.748-15.708zM194.951 59.268c7.554 2.098 7.4 19.074-0.191 21.119-6.103 1.642-10.164-2.599-10.133-10.581 0.034-8.294 3.963-12.305 10.325-10.536z"></path>
+                                        </svg>
+                                    </a>
+                                    <a class="GitHub-link" href="https://github.com/KohnoA">
+                                        <svg fill="#ffffff" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 64 64" width="44px" height="44px">
+                                            <path d="M32,6C17.641,6,6,17.641,6,32c0,12.277,8.512,22.56,19.955,25.286c-0.592-0.141-1.179-0.299-1.755-0.479V50.85 c0,0-0.975,0.325-2.275,0.325c-3.637,0-5.148-3.245-5.525-4.875c-0.229-0.993-0.827-1.934-1.469-2.509 c-0.767-0.684-1.126-0.686-1.131-0.92c-0.01-0.491,0.658-0.471,0.975-0.471c1.625,0,2.857,1.729,3.429,2.623 c1.417,2.207,2.938,2.577,3.721,2.577c0.975,0,1.817-0.146,2.397-0.426c0.268-1.888,1.108-3.57,2.478-4.774 c-6.097-1.219-10.4-4.716-10.4-10.4c0-2.928,1.175-5.619,3.133-7.792C19.333,23.641,19,22.494,19,20.625 c0-1.235,0.086-2.751,0.65-4.225c0,0,3.708,0.026,7.205,3.338C28.469,19.268,30.196,19,32,19s3.531,0.268,5.145,0.738 c3.497-3.312,7.205-3.338,7.205-3.338c0.567,1.474,0.65,2.99,0.65,4.225c0,2.015-0.268,3.19-0.432,3.697 C46.466,26.475,47.6,29.124,47.6,32c0,5.684-4.303,9.181-10.4,10.4c1.628,1.43,2.6,3.513,2.6,5.85v8.557 c-0.576,0.181-1.162,0.338-1.755,0.479C49.488,54.56,58,44.277,58,32C58,17.641,46.359,6,32,6z"/><path d="M33.813,57.93C33.214,57.972,32.61,58,32,58C32.61,58,33.213,57.971,33.813,57.93z"/><path d="M37.786,57.346c-1.164,0.265-2.357,0.451-3.575,0.554C35.429,57.797,36.622,57.61,37.786,57.346z"/><path d="M32,58c-0.61,0-1.214-0.028-1.813-0.07C30.787,57.971,31.39,58,32,58z"/><path d="M29.788,57.9c-1.217-0.103-2.411-0.289-3.574-0.554C27.378,57.61,28.571,57.797,29.788,57.9z"/>
+                                        </svg>
+                                    </a>
+                                </section>
+                
+                                <section class="footer-copyright">
+                                    <h3 class="visually-hidden">Copyright holder</h3>
+                                    <p class="footer-description">All Rights Reserved © Travel Portal</p>
+                                </section>
+                
+                                <section class="footer-socials">
+                                    <h3 class="visually-hidden">Social network</h3>
+                                    <ul class="socials-list">
+                                        <li class="social-item">
+                                            <a class="social-button__instagram" href="https://www.instagram.com/kohno.al/">
+                                                <span class="visually-hidden">Instagram</span>
+                                                <svg width="32" height="32" viewBox="0 0 32 32" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.46779 0.494892C11.1126 0.419171 11.6371 0.402344 15.827 0.402344C20.0169 0.402344 20.5413 0.420573 22.1848 0.494892C23.8282 0.569211 24.95 0.831432 25.9316 1.21144C26.9594 1.59986 27.8919 2.20704 28.6632 2.9923C29.4484 3.76213 30.0542 4.69322 30.4412 5.72247C30.8226 6.70405 31.0834 7.82584 31.1592 9.46647C31.2349 11.1141 31.2517 11.6386 31.2517 15.8271C31.2517 20.017 31.2335 20.5414 31.1592 22.1863C31.0848 23.8269 30.8226 24.9487 30.4412 25.9303C30.0542 26.9596 29.4474 27.8923 28.6632 28.6632C27.8919 29.4485 26.9594 30.0543 25.9316 30.4413C24.95 30.8227 23.8282 31.0835 22.1876 31.1592C20.5413 31.235 20.0169 31.2518 15.827 31.2518C11.6371 31.2518 11.1126 31.2336 9.46779 31.1592C7.82716 31.0849 6.70536 30.8227 5.72378 30.4413C4.69442 30.0542 3.76179 29.4475 2.9908 28.6632C2.20608 27.893 1.59881 26.9608 1.21135 25.9317C0.83134 24.9501 0.570522 23.8283 0.494801 22.1877C0.419079 20.54 0.402252 20.0156 0.402252 15.8271C0.402252 11.6372 0.420481 11.1127 0.494801 9.46928C0.56912 7.82584 0.83134 6.70405 1.21135 5.72247C1.59938 4.69334 2.20711 3.76117 2.9922 2.99089C3.76209 2.20634 4.69379 1.59908 5.72238 1.21144C6.70395 0.831432 7.82575 0.570613 9.46638 0.494892H9.46779ZM22.06 3.27134C20.4334 3.19702 19.9454 3.1816 15.827 3.1816C11.7086 3.1816 11.2206 3.19702 9.59399 3.27134C8.08938 3.34005 7.27327 3.59106 6.72919 3.80279C6.00984 4.08324 5.49522 4.41558 4.95535 4.95544C4.44359 5.45331 4.04975 6.05941 3.8027 6.72929C3.59096 7.27336 3.33996 8.08947 3.27125 9.59408C3.19693 11.2207 3.18151 11.7087 3.18151 15.8271C3.18151 19.9455 3.19693 20.4335 3.27125 22.0601C3.33996 23.5647 3.59096 24.3808 3.8027 24.9249C4.0495 25.5937 4.44353 26.2009 4.95535 26.6987C5.45315 27.2105 6.06032 27.6046 6.72919 27.8513C7.27327 28.0631 8.08938 28.3141 9.59399 28.3828C11.2206 28.4571 11.7072 28.4725 15.827 28.4725C19.9468 28.4725 20.4334 28.4571 22.06 28.3828C23.5646 28.3141 24.3807 28.0631 24.9248 27.8513C25.6441 27.5709 26.1587 27.2386 26.6986 26.6987C27.2104 26.2009 27.6045 25.5937 27.8513 24.9249C28.063 24.3808 28.314 23.5647 28.3827 22.0601C28.457 20.4335 28.4725 19.9455 28.4725 15.8271C28.4725 11.7087 28.457 11.2207 28.3827 9.59408C28.314 8.08947 28.063 7.27336 27.8513 6.72929C27.5708 6.00993 27.2385 5.49531 26.6986 4.95544C26.2007 4.44372 25.5946 4.04989 24.9248 3.80279C24.3807 3.59106 23.5646 3.34005 22.06 3.27134V3.27134ZM13.8568 20.5821C14.9571 21.0401 16.1823 21.1019 17.3231 20.757C18.4639 20.412 19.4495 19.6817 20.1117 18.6908C20.7739 17.6999 21.0715 16.5098 20.9537 15.3238C20.8359 14.1378 20.31 13.0295 19.4658 12.1882C18.9277 11.6504 18.277 11.2387 17.5606 10.9825C16.8442 10.7264 16.08 10.6322 15.3229 10.7069C14.5657 10.7816 13.8346 11.0232 13.1821 11.4144C12.5295 11.8055 11.9718 12.3365 11.5491 12.9691C11.1264 13.6016 10.8493 14.3201 10.7375 15.0726C10.6258 15.8252 10.6823 16.5931 10.903 17.3212C11.1237 18.0493 11.5031 18.7194 12.0139 19.2832C12.5246 19.8471 13.154 20.2907 13.8568 20.5821ZM10.2208 10.2209C10.957 9.48467 11.831 8.90067 12.7929 8.50223C13.7548 8.1038 14.7858 7.89872 15.827 7.89872C16.8681 7.89872 17.8991 8.1038 18.861 8.50223C19.8229 8.90067 20.697 9.48467 21.4332 10.2209C22.1694 10.9571 22.7534 11.8311 23.1518 12.793C23.5503 13.7549 23.7553 14.7859 23.7553 15.8271C23.7553 16.8682 23.5503 17.8992 23.1518 18.8611C22.7534 19.823 22.1694 20.697 21.4332 21.4333C19.9463 22.9201 17.9297 23.7554 15.827 23.7554C13.7243 23.7554 11.7076 22.9201 10.2208 21.4333C8.73394 19.9464 7.89863 17.9298 7.89863 15.8271C7.89863 13.7243 8.73394 11.7077 10.2208 10.2209V10.2209ZM25.5137 9.07945C25.6961 8.90735 25.8422 8.7004 25.9432 8.47084C26.0442 8.24128 26.0982 7.99379 26.1018 7.74301C26.1055 7.49224 26.0588 7.24328 25.9645 7.01087C25.8702 6.77847 25.7303 6.56734 25.5529 6.39C25.3756 6.21265 25.1644 6.07269 24.932 5.97841C24.6996 5.88412 24.4507 5.83742 24.1999 5.84108C23.9491 5.84473 23.7016 5.89867 23.4721 5.99969C23.2425 6.10071 23.0356 6.24677 22.8635 6.42921C22.5288 6.78402 22.3455 7.2553 22.3526 7.74301C22.3597 8.23073 22.5566 8.69647 22.9015 9.04137C23.2464 9.38628 23.7122 9.58318 24.1999 9.59029C24.6876 9.5974 25.1589 9.41416 25.5137 9.07945V9.07945Z" fill="#F8F8F8"/>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li class="social-item">
+                                            <a class="social-button__youtube" href="https://www.youtube.com/c/RollingScopesSchool">
+                                                <span class="visually-hidden">YouTube</span>
+                                                <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M25.8944 5.60889H9.06742C5.96967 5.60889 3.45844 8.12012 3.45844 11.2179V22.4359C3.45844 25.5336 5.96967 28.0449 9.06742 28.0449H25.8944C28.9922 28.0449 31.5034 25.5336 31.5034 22.4359V11.2179C31.5034 8.12012 28.9922 5.60889 25.8944 5.60889Z" stroke="#F8F8F8" stroke-width="4.16667" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M21.6876 16.8269L14.6764 12.6201V21.0336L21.6876 16.8269Z" stroke="#F8F8F8" stroke-width="4.16667" stroke-linecap="round" stroke-linejoin="round" fill="#F8F8F8"/>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li class="social-item">
+                                            <a class="social-button__twitter" href="https://twitter.com/webstandards_ru?s=21&t=ybBh3-9Ja496lo2oB49NwQ">
+                                                <span class="visually-hidden">Twitter</span>
+                                                <svg width="33" height="27" viewBox="0 0 33 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M32.4612 3.92278C31.2903 4.44162 30.0325 4.79218 28.7102 4.95063C30.0746 4.13423 31.0953 2.84932 31.582 1.33564C30.3001 2.09704 28.8972 2.63299 27.4341 2.92018C26.4503 1.86971 25.1472 1.17344 23.7271 0.939468C22.3069 0.7055 20.8493 0.946924 19.5805 1.62626C18.3116 2.30559 17.3026 3.38483 16.71 4.69641C16.1173 6.00799 15.9743 7.47853 16.3031 8.87973C13.7057 8.74931 11.1647 8.07421 8.84514 6.89822C6.52554 5.72223 4.47913 4.07165 2.83872 2.05359C2.27782 3.02114 1.9553 4.14294 1.9553 5.33765C1.95468 6.41317 2.21953 7.47221 2.72637 8.42082C3.23321 9.36942 3.96635 10.1783 4.86076 10.7756C3.82348 10.7426 2.80909 10.4623 1.90202 9.95806V10.0422C1.90191 11.5506 2.4237 13.0127 3.37884 14.1802C4.33398 15.3478 5.66365 16.1489 7.14222 16.4477C6.17997 16.7081 5.17113 16.7464 4.19189 16.5598C4.60905 17.8578 5.42165 18.9928 6.51593 19.8059C7.6102 20.6191 8.93137 21.0697 10.2945 21.0947C7.98053 22.9112 5.12282 23.8965 2.18106 23.8922C1.65996 23.8923 1.1393 23.8619 0.621765 23.801C3.60782 25.721 7.0838 26.7399 10.6338 26.7359C22.6511 26.7359 29.2206 16.7828 29.2206 8.15056C29.2206 7.87011 29.2136 7.58686 29.201 7.30641C30.4788 6.38229 31.5819 5.23795 32.4584 3.92699L32.4612 3.92278V3.92278Z" fill="#F8F8F8"/>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </section>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+            </section>
+        </div>
+    </main>
+    <div>
+        <section class="modal modal-login">
+            <h3 class="modal-login-title">Log in to your account</h3>
+            <form class="login-form" action="#" method="post">
+                <div class="form-item">
+                    <a class="button button-facebook" href="https://www.facebook.com/">Sign In with Facebook</a>
+                </div>
+                <div class="form-item">
+                    <a class="button button-google" href="https://www.google.com/">Sign In with Google</a>
+                </div>
+
+                    <span class="form-separator">or</span>
+                
+                <div class="form-item">
+                    <label class="modal-email-label" for="user-email">E-mail</label>
+                    <input class="modal-email-input" type="email" id="user-email" name="email" placeholder="" required>
+                </div>
+                <div class="form-item">
+                    <label class="modal-password-label" for="user-password">Password</label>
+                    <input class="modal-password-input" type="password" id="user-password" name="password" placeholder="" required>
+                </div>
+                <button class="button button-modal" type="submit">Sign In</button>
+                <a class="restore" href="#">Forgot Your Password?</a>
+                <p class="register">Don't have an account? <a class="register-link" href="#">Register</a></p>
+            </form>
+            <button class="modal-close" type="button">
+                <span class="visually-hidden">Close</span>
+            </button>
+        </section>
+
+        <section class="modal modal-create">
+            <h3 class="modal-login-title">Create account</h3>
+            <form class="login-form" action="#" method="post">
+                <div class="form-item">
+                    <label class="modal-email-label" for="user-email">E-mail</label>
+                    <input class="modal-email-input" type="email" id="create-user-email" name="email" placeholder="" required>
+                </div>
+                <div class="form-item">
+                    <label class="modal-password-label" for="user-password">Password</label>
+                    <input class="modal-password-input" type="password" id="create-user-password" name="password" placeholder="" required>
+                </div>
+                <button class="button button-modal button-modal-create" type="submit">Sign Up</button>
+                <p class="register">Don't have an account? <a class="login-link register-link" href="#">Log in</a></p>
+            </form>
+            <button class="modal-close" type="button">
+                <span class="visually-hidden">Close</span>
+            </button>
+        </section>
+        <div class="overlay-modal"></div>
+    </div>
+    <script src="assets/js/menu.js"></script>
+    <script src="assets/js/modal.js"></script>
+    <script src="assets/js/slider.js"></script>
+</body>
+</html>
